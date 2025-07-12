@@ -1,0 +1,27 @@
+SIMFILE
+
+SET_MACRO $(ROOT_FILE_NAME)$ Run_8e09227c-bf01-478c-9749-5022391b8a39
+SET_MACRO $(OUTPUT_PATH)$ C:\Users\13706\Documents\matlab_program\yuzirui\yuzirui_MPC\carsimfile2\Results
+SET_MACRO $(WORK_DIR)$ C:\Users\13706\Documents\matlab_program\yuzirui\yuzirui_MPC\carsimfile2\
+SET_MACRO $(OUTPUT_FILE_PREFIX)$ $(WORK_DIR)$Results\Run_8e09227c-bf01-478c-9749-5022391b8a39\LastRun
+
+FILEBASE $(OUTPUT_FILE_PREFIX)$
+INPUT $(WORK_DIR)$Results\$(ROOT_FILE_NAME)$\Run_all.par
+INPUTARCHIVE $(OUTPUT_FILE_PREFIX)$_all.par
+ECHO $(OUTPUT_FILE_PREFIX)$_echo.par
+FINAL $(OUTPUT_FILE_PREFIX)$_end.par
+LOGFILE $(OUTPUT_FILE_PREFIX)$_log.txt
+ERDFILE $(OUTPUT_FILE_PREFIX)$.vs
+PROGDIR C:\Program Files (x86)\CarSim2019.1_Prog\
+DATADIR C:\Users\13706\Documents\matlab_program\yuzirui\yuzirui_MPC\carsimfile2\
+GUI_REFRESH_V CarSim_RefreshEvent_11136
+RESOURCEDIR C:\Program Files (x86)\CarSim2019.1_Prog\\Resources\
+PRODUCT_ID CarSim
+PRODUCT_VER 2019.1
+ANIFILE C:\Users\13706\Documents\matlab_program\yuzirui\yuzirui_MPC\carsimfile2\runs\animator.par
+VEHICLE_CODE i_i
+EXT_MODEL_STEP 0.00050000
+PORTS_IMP 1,2
+PORTS_EXP 1,11
+
+END
